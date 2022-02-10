@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn global dir
+
+PATH: 
+  /Applications/Emacs.app/Contents/MacOS::/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/apple/go/bin:/Users/apple/.deno/bin:/Users/apple/bin:/usr/local/opt/texinfo/bin:/Users/apple/files/scripts:/Users/apple/files/node:/usr/local/maven/bin:/Users/apple/Library/Python/3.7/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.17.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/apple/repository/tmp/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
